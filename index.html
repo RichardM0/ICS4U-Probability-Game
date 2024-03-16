@@ -1,0 +1,79 @@
+<header>
+    <!-- Page title at the top of document -->
+    <h1 class="page-header">  Probability Game (Scenario 2) </h1>
+  </header>
+  <main>
+  
+    <div id="roundInfo">
+      <!-- Division containing information of round -->
+      <span class="round" id="roundNum"></span>
+      <span class="round" id="turnInfo"></span>
+    </div>
+  
+    <div id="frame">
+      <!-- shows what happens after each round -->
+      <div class="msg-container">
+        <h1 id="ruleMsg"></h1>
+      </div>
+    </div>
+  
+    <div class="container">
+      <!-- shows what number each player got -->
+      <div id="playerOneDisplay">
+        <span class="numLabel" id="playerOneNum"></span>
+      </div>
+      <div id="playerTwoDisplay">
+        <span class="numLabel" id="playerTwoNum"></span>
+      </div>
+  
+      <div class="menu-container">
+        <!-- buttons for generating number and stop generating -->
+        <div class="button" id="generate">
+          <span class="button-head">Generate</span>
+        </div>
+        <div class="button" id="stop">
+          <span class="button-head">Stop</span>
+        </div>
+      </div>
+  
+      <div class="menu-container">
+        <!-- displaying score for each player -->
+        <div id="score1" class="score">
+          <span class="score-label" id="playerOneScore"> 0 </span>
+        </div>
+        <div id="score2" class="score">
+          <span class="score-label" id="playerTwoScore"> 0 </span>
+        </div>
+      </div>
+  
+    </div>
+  
+  </main>
+  
+  <!-- footer showed who made the website -->
+  <footer>
+    <!-- clickable header to show/hide rules -->
+    <h2 id="rule-header"> Click for Rules </h2>
+    <div id="rules">
+      <!-- rules of scenario 2 -->
+      <p class="rule">
+        1. One deck has the first 6 even numbers, the other first 6 odd.
+      </p>
+      <p class="rule">
+        2. Click generate to start rolling. Click stop to randomly choose two cards.
+      </p>
+      <p class="rule">
+        3. Add the two numbers. Player one earns one point if sum of the digits is divisible by 4.
+      </p>
+      <p class="rule">
+        4. For player two, if one card is a factor of the other, Player Two is awarded a point.
+      </p>
+      <p class="rule">
+        5. Players will only receive points on their respective turns
+      </p>
+      <p class="rule">
+        6. Player one's score is on the left, Player two on the right.
+      </p>
+    </div>
+    <h1>Made by Richard M. </h1>
+  </footer>
